@@ -11,7 +11,7 @@ variable "resource_group_name" {
 
 # SKU
 variable "sku_name" {
-  default     = "GP_Standard_D4s_v3"
+  default     = "B_Standard_B1ms"
   description = <<-EOT
   The SKU Name for the PostgreSQL Flexible Server.
   The name of the SKU, follows the tier + name pattern (e.g. B_Standard_B1ms, GP_Standard_D2s_v3, MO_Standard_E4s_v3
