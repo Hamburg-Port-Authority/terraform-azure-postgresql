@@ -19,6 +19,13 @@ variable "sku_name" {
 }
 
 
+variable "zone" {
+
+  type        = string
+  default     = "1"
+  description = "Specifies the Availability Zone in which the PostgreSQL Flexible Server should be located"
+
+}
 
 variable "storage" {
   type = object({

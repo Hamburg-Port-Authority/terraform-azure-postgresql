@@ -23,6 +23,7 @@ resource "azurerm_postgresql_flexible_server" "main" {
 
   sku_name = var.sku_name
   version  = var.engine_version
+  zone     = var.zone
 
   auto_grow_enabled            = var.storage["auto_grow"]
   storage_mb                   = var.storage["size"]
